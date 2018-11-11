@@ -1,0 +1,35 @@
+/*This is my home interface */
+
+.main {
+    height:100%;
+    width:100%;
+    background-color:##66FFFF;
+    border:double;
+    margin:5px;
+}
+.rapper {
+font-family: "Times New Roman", Times, serif;
+background-color:#FF33FF;
+height:34px;
+width:100%;
+  float:none;
+
+}
+
+.menu {background-color:#3333CC; 
+ border:none; 
+ width: 100%; 
+ height:34px;
+ float:none;
+ border:none;
+ margin:0;
+}
+
+.menu ul li{display:inline;
+   padding:40px;
+   float:none;
+   margin:5px;
+   text-decoration:none;
+   text-color:black;
+   underline:none;
+}
