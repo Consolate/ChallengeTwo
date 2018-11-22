@@ -1,4 +1,4 @@
-def powers(base,exp):
+def powers(base=int(input("Enter the base:")),exp=(int(input("Enter the exponential:")))):
 
     if (exp==1):
 
@@ -8,8 +8,4 @@ def powers(base,exp):
 
         return(base*powers(base,exp-1))
 
-        base=eval(int(input("Enter the base:")))
-
-        exp=eval(int(input("Enter the exponential:")))
-
-        print("Result:",powers(base,exp))
+print("Result:",powers())
